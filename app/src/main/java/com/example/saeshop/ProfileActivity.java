@@ -2,14 +2,25 @@ package com.example.saeshop;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.saeshop.adapter.UserAdapter;
+import com.example.saeshop.dto.UserDTO;
+import com.example.saeshop.service.UserService;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class ProfileActivity extends AppCompatActivity {
     private Button logoutBtn;
+    private TextView profileName, profileInfoContact;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +33,27 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 handleLogout();
+            }
+        });
+
+        UserService userService = UserAdapter.getRetrofitInstance().create(UserService.class);
+        Call<UserDTO> call = userService.getUser();
+
+        call.enqueue(new Callback<UserDTO>() {
+            @Override
+            public void onResponse(Call<UserDTO> call, Response<UserDTO> response) {
+                if (response.isSuccessful()) {
+                    UserDTO user = response.body();
+                    Log.d("MainActivity", "Name: " + user.getName());
+                    Log.d("MainActivity", "Email: " + user.getEmail());
+                } else {
+                    Log.e("MainActivity", "Error: " + response.code());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<UserDTO> call, Throwable t) {
+                Log.e("MainActivity", "Failure: " + t.getMessage());
             }
         });
     }
