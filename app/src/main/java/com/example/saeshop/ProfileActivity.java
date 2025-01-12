@@ -36,6 +36,18 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
 
+        profileName = findViewById(R.id.profileName);
+        profileInfoContact = findViewById(R.id.profileInfoContact);
+
+        getUserInfo();
+    }
+
+    private void handleLogout() {
+        Intent intent = new Intent(ProfileActivity.this, SignInActivity.class);
+        ProfileActivity.this.startActivity(intent);
+    }
+
+    private void getUserInfo(){
         UserService userService = UserAdapter.getRetrofitInstance().create(UserService.class);
         Call<UserDTO> call = userService.getUser();
 
@@ -46,6 +58,8 @@ public class ProfileActivity extends AppCompatActivity {
                     UserDTO user = response.body();
                     Log.d("MainActivity", "Name: " + user.getName());
                     Log.d("MainActivity", "Email: " + user.getEmail());
+                    profileName.setText(user.getName());
+                    profileInfoContact.setText(user.getPhone()+ " - " + user.getEmail());
                 } else {
                     Log.e("MainActivity", "Error: " + response.code());
                 }
@@ -56,10 +70,5 @@ public class ProfileActivity extends AppCompatActivity {
                 Log.e("MainActivity", "Failure: " + t.getMessage());
             }
         });
-    }
-
-    private void handleLogout() {
-        Intent intent = new Intent(ProfileActivity.this, SignInActivity.class);
-        ProfileActivity.this.startActivity(intent);
     }
 }

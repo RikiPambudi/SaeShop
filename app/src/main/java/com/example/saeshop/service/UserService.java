@@ -6,6 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface UserService {
-    @GET("users/1")
+    @GET("users/riki")
     Call<UserDTO> getUser();
 }
