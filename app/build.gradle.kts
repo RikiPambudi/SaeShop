@@ -12,7 +12,7 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -44,7 +44,7 @@ android {
 }
 
 dependencies {
-    implementation("com.google.android.material:material:1.9.0") // menambahkan material ui
+    implementation("com.google.android.material:material:1.11.0") // menambahkan material ui
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

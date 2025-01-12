@@ -228,7 +228,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="4dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom1" />
+                        app:srcCompat="@drawable/bot_1" />
 
                     <TextView
                         android:id="@+id/textView15"
@@ -254,7 +254,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="4dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom2" />
+                        app:srcCompat="@drawable/bot_2" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -280,7 +280,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="4dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom3" />
+                        app:srcCompat="@drawable/bot_3" />
 
                     <TextView
                         android:id="@+id/textView17"
@@ -294,7 +294,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/cartBtn"
+                    android:id="@+id/profileBtn"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
@@ -307,7 +307,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="4dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bottom4" />
+                        app:srcCompat="@drawable/bot_4" />
 
                     <TextView
                         android:id="@+id/textView18"
