@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white03">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@color/base03"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+                <SearchView
+                    android:background="@color/white02"
+                    android:layout_width="392dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/product_pc" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@color/white01"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/base01"
+                        android:text="Rp. 20,500,000"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginStart="4dp"
+                        android:layout_width="35dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/mall_icon"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="BAREBONES GAMING SYSTEM AMD RYZEN 9 9900X 32GB"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:background="@color/base01"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="15 Hari Pengembalian | 100% Original | Proteksi Terjamin"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="8dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/star_icon"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:textColor="@color/black"
+                        android:text="5 Penilaian Produk (14.534)"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Lihat Semua"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:background="@color/base01"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/user_icon"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:textColor="@color/black"
+                        android:text="Riki Setiyo Pambudi"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Produk : Barang pesanan sesuai dengan deskripsi, Pengiriman Cepat, dan pastinya original."
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/review_1"/>
+                </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white01"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/seller_icon"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:textColor="@color/black"
+                    android:text="JopoSae Lab"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="11dp"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:background="@color/base01"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:text="Deskripsi"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="11dp"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:text="AMD - Ryzen 9 9900X ( 3 Thn )
+MSI - MAG X670E Tomahawk WiFi ( 3 Thn )
+PREDATOR Hermes RGB 32GB (2x16GB) DDR5 7200MHz Black ( Lifetime )
+Lexar - Lexar NM1090 1TB with Heatsink M.2 2280 PCIe Gen 5×4 NVMe SSD ( 5Thn )
+NZXT - C1200 Gold Matte Black 1200 Watt 80 Plus Gold | PA-2G1BB-EU ( 10Thn )"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayoutDetailProduct"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/white01">
+
+        <com.google.android.material.button.MaterialButton
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pesan Sekarang"
+            android:textColor="@color/white03"
+            android:textSize="10sp"
+            android:backgroundTint="@color/base02" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

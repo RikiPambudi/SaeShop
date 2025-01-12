@@ -16,6 +16,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.home_view);
 
         bottomNavigation();
+        productDetailNavigation();
     }
 
     private void bottomNavigation() {
@@ -33,6 +34,17 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, ProfileActivity.class));
+            }
+        });
+    }
+
+    private void productDetailNavigation() {
+        LinearLayout productDetail1 = findViewById(R.id.productDetail1);
+
+        productDetail1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, ProductDetailActivity.class));
             }
         });
     }

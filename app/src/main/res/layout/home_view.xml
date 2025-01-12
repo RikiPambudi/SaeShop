@@ -144,6 +144,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
                 <LinearLayout
+                    android:id="@+id/productDetail1"
                     android:layout_width="185dp"
                     android:layout_height="170dp"
                     android:layout_marginLeft="10dp"
