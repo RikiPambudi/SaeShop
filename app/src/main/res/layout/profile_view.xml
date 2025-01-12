@@ -79,8 +79,113 @@ Rikisetiyopambudi@joposaelabs.com"
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/white01"
                 android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/base02"
+                        android:text="Pengaturan Akun"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/base03"
+                        android:text="Daftar Alamat"
+                        android:layout_marginStart="6dp"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Atur alamat pengiriman belanjaan"
+                        android:layout_marginStart="6dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/base03"
+                        android:text="Rekening Bank"
+                        android:layout_marginStart="6dp"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="atur rekening bank untuk melakukan transaksi"
+                        android:layout_marginStart="6dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/base03"
+                        android:text="Keamanan Akun"
+                        android:layout_marginStart="6dp"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Kata sandi, Pin dan Verifikasi Data"
+                        android:layout_marginStart="6dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/base03"
+                        android:text="Privasi Akun"
+                        android:layout_marginStart="6dp"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Atur penggunaan data pribadimu di SaeShop"
+                        android:layout_marginStart="6dp"
+                        android:textSize="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -90,18 +195,18 @@ Rikisetiyopambudi@joposaelabs.com"
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayoutDetailProduct"
         android:layout_width="match_parent"
-        android:layout_marginBottom="55dp"
-        android:layout_height="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@color/white01">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/logoutBtn"
             android:fontFamily="@font/poppins_bold"
-            android:id="@+id/loginButton"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:text="Keluar"
             android:textColor="@color/white03"
             android:textSize="14sp"

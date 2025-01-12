@@ -39,7 +39,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="-15dp"
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
+                android:layout_height="160dp"
                 android:background="@color/white02"
                 android:padding="10dp"
                 android:orientation="vertical">
@@ -49,31 +49,31 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
@@ -85,31 +85,31 @@
                     android:layout_height="wrap_content"
                     >
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="8dp"
+                        android:layout_margin="4dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
@@ -198,17 +198,17 @@
     </ScrollView>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@+id/coordinatorLayout"
+        android:id="@+id/coordinatorLayoutDetailProduct"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="0dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom">
 
             <LinearLayout
@@ -233,9 +233,9 @@
 
                     <TextView
                         android:id="@+id/textHome"
-                        android:layout_width="100dp"
-                        android:layout_height="18dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
                         android:gravity="center"
                         android:text="Home"
                         android:textAlignment="center"
@@ -261,8 +261,8 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
                         android:gravity="center"
                         android:text="Produk"
                         android:textAlignment="center"
@@ -288,8 +288,8 @@
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
                         android:gravity="center"
                         android:text="Pesanan"
                         android:textAlignment="center"
@@ -316,8 +316,8 @@
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
                         android:gravity="center"
                         android:text="Profile"
                         android:textAlignment="center"
