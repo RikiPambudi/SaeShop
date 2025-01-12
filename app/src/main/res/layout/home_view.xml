@@ -49,31 +49,31 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
@@ -85,31 +85,31 @@
                     android:layout_height="wrap_content"
                     >
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
 
                     <ImageView
-                        android:layout_margin="4dp"
+                        android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
                         android:src="@drawable/signin_btn" />
