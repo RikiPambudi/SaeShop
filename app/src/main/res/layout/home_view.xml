@@ -52,31 +52,31 @@
                         android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
-                        android:src="@drawable/signin_btn" />
+                        android:src="@drawable/pulsa_icon" />
 
                     <ImageView
                         android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
-                        android:src="@drawable/signin_btn" />
+                        android:src="@drawable/mall_ic" />
 
                     <ImageView
                         android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
-                        android:src="@drawable/signin_btn" />
+                        android:src="@drawable/elektronik_icon" />
 
                     <ImageView
                         android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
-                        android:src="@drawable/signin_btn" />
+                        android:src="@drawable/tiket_icon" />
 
                     <ImageView
                         android:layout_margin="6dp"
                         android:layout_width="59dp"
                         android:layout_height="59dp"
-                        android:src="@drawable/signin_btn" />
+                        android:src="@drawable/fashion_icon" />
 
                 </LinearLayout>
 
