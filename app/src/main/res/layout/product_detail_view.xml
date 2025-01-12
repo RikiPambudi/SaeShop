@@ -276,7 +276,7 @@ NZXT - C1200 Gold Matte Black 1200 Watt 80 Plus Gold | PA-2G1BB-EU ( 10Thn )"
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayoutDetailProduct"
         android:layout_width="match_parent"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="55dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
