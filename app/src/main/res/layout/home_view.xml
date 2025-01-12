@@ -155,7 +155,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="110dp"
-                        android:src="@drawable/product2" />
+                        android:src="@drawable/product_pc" />
 
                     <TextView
                         android:id="@+id/textProduct1"
@@ -201,6 +201,7 @@
         android:id="@+id/coordinatorLayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
