@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingBottom="100dp">
+            android:paddingBottom="110dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="240dp"
+                android:layout_height="260dp"
                 android:background="@color/white01"
                 android:orientation="vertical">
                 <LinearLayout
@@ -55,9 +55,10 @@
                     android:layout_height="25dp"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/priceText"
                         android:layout_width="match_parent"
                         android:textColor="@color/base01"
-                        android:text="Rp. 20,500,000"
+                        android:text="-"
                         android:layout_marginStart="5dp"
                         android:layout_marginTop="4dp"
                         android:textSize="14dp"
@@ -74,9 +75,10 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/mall_icon"/>
                     <TextView
+                        android:id="@+id/nameText"
                         android:layout_width="match_parent"
                         android:textColor="@color/black"
-                        android:text="BAREBONES GAMING SYSTEM AMD RYZEN 9 9900X 32GB"
+                        android:text="-"
                         android:layout_marginStart="5dp"
                         android:layout_marginTop="4dp"
                         android:textSize="14dp"
@@ -254,13 +256,10 @@
                 android:layout_height="70dp"
                 android:orientation="horizontal">
                 <TextView
+                    android:id="@+id/descriptionText"
                     android:layout_width="match_parent"
                     android:textColor="@color/black"
-                    android:text="AMD - Ryzen 9 9900X ( 3 Thn )
-MSI - MAG X670E Tomahawk WiFi ( 3 Thn )
-PREDATOR Hermes RGB 32GB (2x16GB) DDR5 7200MHz Black ( Lifetime )
-Lexar - Lexar NM1090 1TB with Heatsink M.2 2280 PCIe Gen 5×4 NVMe SSD ( 5Thn )
-NZXT - C1200 Gold Matte Black 1200 Watt 80 Plus Gold | PA-2G1BB-EU ( 10Thn )"
+                    android:text="-"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="4dp"
                     android:textSize="10dp"

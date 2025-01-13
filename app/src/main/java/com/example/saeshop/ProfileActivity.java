@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.app.ProgressDialog;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +21,8 @@ import retrofit2.Response;
 
 public class ProfileActivity extends AppCompatActivity {
     private Button logoutBtn;
+    private ProgressDialog progressDialog;
+
     private TextView profileName, profileInfoContact;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,10 @@ public class ProfileActivity extends AppCompatActivity {
         profileName = findViewById(R.id.profileName);
         profileInfoContact = findViewById(R.id.profileInfoContact);
 
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Loading...");
+        progressDialog.setCancelable(false);
+
         getUserInfo();
     }
 
@@ -50,10 +57,12 @@ public class ProfileActivity extends AppCompatActivity {
     private void getUserInfo(){
         UserService userService = UserAdapter.getRetrofitInstance().create(UserService.class);
         Call<UserDTO> call = userService.getUser();
+        progressDialog.show();
 
         call.enqueue(new Callback<UserDTO>() {
             @Override
             public void onResponse(Call<UserDTO> call, Response<UserDTO> response) {
+                progressDialog.dismiss();
                 if (response.isSuccessful()) {
                     UserDTO user = response.body();
                     Log.d("MainActivity", "Name: " + user.getName());
@@ -67,6 +76,7 @@ public class ProfileActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<UserDTO> call, Throwable t) {
+                progressDialog.dismiss();
                 Log.e("MainActivity", "Failure: " + t.getMessage());
             }
         });

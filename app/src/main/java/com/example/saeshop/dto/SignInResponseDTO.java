@@ -1,12 +1,12 @@
 package com.example.saeshop.dto;
 
 public class SignInResponseDTO {
-    private boolean success;
+    private boolean isSuccess;
     private String message;
     private Integer code;
 
     public boolean isSuccess() {
-        return success;
+        return isSuccess;
     }
 
     public String getMessage() {
