@@ -22,6 +22,7 @@ public class HomeActivity extends AppCompatActivity {
     private void bottomNavigation() {
         LinearLayout homeBtn = findViewById(R.id.homeBtn);
         LinearLayout profileBtn = findViewById(R.id.profileBtn);
+        LinearLayout productBtn = findViewById(R.id.productBtn);
 
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,13 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this, ProfileActivity.class));
+            }
+        });
+
+        productBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, ProductActivity.class));
             }
         });
     }

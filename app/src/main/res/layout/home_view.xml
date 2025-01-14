@@ -223,14 +223,6 @@
                     android:layout_weight="0.25"
                     android:orientation="vertical">
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/bottomHomeImg"-->
-<!--                        android:layout_width="20dp"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_gravity="center"-->
-<!--                        android:layout_margin="4dp"-->
-<!--                        app:srcCompat="@drawable/bot_1" />-->
-
                     <TextView
                         android:id="@+id/textHome"
                         android:layout_width="match_parent"
@@ -244,19 +236,11 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/productBtn"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
                     android:orientation="vertical">
-
-<!--                    <ImageView-->
-<!--                        android:id="@+id/bottomProductImg"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_gravity="center"-->
-<!--                        android:layout_margin="4dp"-->
-<!--                        android:layout_weight="1"-->
-<!--                        app:srcCompat="@drawable/bot_2" />-->
 
                     <TextView
                         android:id="@+id/textView16"
@@ -276,15 +260,6 @@
                     android:layout_weight="0.25"
                     android:orientation="vertical">
 
-<!--                    <ImageView-->
-<!--                        android:id="@+id/bottomPesananImg"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_gravity="center"-->
-<!--                        android:layout_margin="4dp"-->
-<!--                        android:layout_weight="1"-->
-<!--                        app:srcCompat="@drawable/bot_3" />-->
-
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
@@ -303,15 +278,6 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
                     android:orientation="vertical">
-
-<!--                    <ImageView-->
-<!--                        android:id="@+id/bottomProfileImg"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_gravity="center"-->
-<!--                        android:layout_margin="4dp"-->
-<!--                        android:layout_weight="1"-->
-<!--                        app:srcCompat="@drawable/bot_4" />-->
 
                     <TextView
                         android:id="@+id/textView18"

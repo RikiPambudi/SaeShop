@@ -3,7 +3,8 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import java.text.NumberFormat;
+import java.util.Locale;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -34,8 +35,10 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
     @Override
     public void onBindViewHolder(@NonNull ProductViewHolder holder, int position) {
         ProductDTO product = productList.get(position);
+        NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.GERMANY);
+        String formattedPrice = numberFormat.format(product.getPrice());
         holder.textViewName.setText(product.getName());
-        holder.textViewPrice.setText("Rp " + product.getPrice());
+        holder.textViewPrice.setText("Rp " + formattedPrice);
 
         Glide.with(context).load(product.getImage()).into(holder.imageViewProduct);
     }
